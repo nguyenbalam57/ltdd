@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D8D8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="540dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarmanhinhchinh"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#F7FE2E"
+                app:title="Trang chủ">
+
+                <EditText
+                    android:id="@+id/timkiem"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#ffffff"
+                    android:hint="  Bạn cần tìm gi">
+
+                </EditText>
+
+                <ImageView
+                    android:layout_width="70px"
+                    android:layout_height="80px"
+                    android:layout_marginLeft="15dp"
+                    app:srcCompat="@drawable/search" />
+
+                <ImageView
+                    android:layout_width="120px"
+                    android:layout_height="120px"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/hang" />
+            </androidx.appcompat.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="412dp"
+                android:layout_height="157dp"
+                android:layout_row="1"
+                android:layout_column="3"
+                app:srcCompat="@drawable/trangchu" />
+
+            <TextView
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#F7FE2E"
+                android:text="Điện thoại nỗi bật nhất"
+                android:textColor="#000000"
+                android:textSize="20sp">
+
+            </TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/iphone" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/samsung" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/xiaomi" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:background="#f7fe2e"
+                android:text="Giá tốt cho mỗi người"
+                android:textColor="#000000"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/oppok3" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/samsunggalaxya50" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/realme5pro" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:background="#f7fe2e"
+                android:text="Khuyến mãi mỗi ngày"
+                android:textColor="#000000"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/vivos1" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/blackberry" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="117dp"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/huawei" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>
